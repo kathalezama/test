@@ -1,0 +1,29 @@
+{
+    "name": "katherine/project",
+    "description": "Test",
+    "type": "project",
+    "require": {
+        "illuminate/database": "5.5",
+        "dompdf/dompdf": "dev-master",
+        "maximebf/debugbar": "1.18.x-dev",
+        "nesbot/carbon": "1.26.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Katherine\\Project\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "katherine lezama"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
